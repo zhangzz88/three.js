@@ -1,0 +1,57 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "name": "订单列表",
+      "roleId": 1,
+      "viweRole": "",
+      "roleList": [
+        {
+          "name": "订单详情",
+          "roleId": 4,
+          "viewRole": "",
+          "roleList": [
+            {
+              "name": "审核",
+              "roleId": 5
+            }
+          ]
+        },
+        {
+          "name": "查看",
+          "roleId": 2
+        },
+        {
+          "name": "删除",
+          "roleId": 3
+        }
+      ]
+    },
+    {
+      "name": "商品列表",
+      "roleId": 6,
+      "viweRole": "",
+      "roleList": [
+        {
+          "name": "商品详情",
+          "roleId": 9,
+          "viewRole": "",
+          "roleList": [
+            {
+              "name": "修改",
+              "roleId": 10
+            }
+          ]
+        },
+        {
+          "name": "查看",
+          "roleId": 7
+        },
+        {
+          "name": "删除",
+          "roleId": 8
+        }
+      ]
+    }
+  ]
+}
